@@ -1,6 +1,6 @@
 module go-demo
 
-go 1.22.5
+go 1.22
 
 require (
 	github.com/nacos-group/nacos-sdk-go/v2 v2.2.7
