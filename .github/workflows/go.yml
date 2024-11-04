@@ -25,10 +25,10 @@ jobs:
           go-version: ${{ matrix.go-version }}
 
       - name: dependency
-        run: go get .
+        run: go get ./src/
 
       - name: Build
-        run: go build -o go-tools -v ./...
+        run: go build -o go-tools ./src/main.go
 
       - name: Test
         run: go test -v ./...

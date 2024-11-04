@@ -1,4 +1,4 @@
-package main
+package nacos
 
 import (
 	"github.com/nacos-group/nacos-sdk-go/v2/clients"
